@@ -61,16 +61,6 @@ Below is an image of the project implemented on the lab board:
 4. **`Snake.c`**: Implements the Snake game.
 5. **`Memory.c`**: Implements the Memory game.
 
-## Screenshots
-
-### Project Plan Table:
-![Project Plan Table](./image.png)
-
-### Flow Diagram:
-![Flow Diagram](./image.png)
-
-### Hardware Demo:
-![Hardware Demo](./Demo.jpg)
 
 ---
 
