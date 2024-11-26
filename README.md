@@ -10,7 +10,6 @@ This project showcases the design and implementation of an embedded system that 
 - [Hardware Demonstration](#hardware-demonstration)
 - [How to Run](#how-to-run)
 - [Code Files](#code-files)
-- [Screenshots](#screenshots)
 
 ## Overview
 
