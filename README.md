@@ -1,40 +1,65 @@
-# Embedded Multimedia System Project
+# Embedded Systems Multimedia Project
+
+This project showcases the design and implementation of an embedded system that integrates multimedia, user input, and hardware interfacing. It combines features like a photo viewer, an MP3 player, and games into a unified system.
+
+## Table of Contents
+- [Overview](#overview)
+- [Features](#features)
+- [Project Plan](#project-plan)
+- [Flow Diagram](#flow-diagram)
+- [How to Run](#how-to-run)
+- [Code Files](#code-files)
 
 ## Overview
 
-This project demonstrates the design and implementation of an embedded system integrating multimedia functionality, user input, and hardware interfacing. It includes applications such as an interactive photo viewer, audio playback, and games like Snake and Memory.
-
-## Table of Contents
-
-- [Overview](#overview)
-- [Features](#features)
-- [Project Structure](#project-structure)
-- [Getting Started](#getting-started)
-- [Hardware Requirements](#hardware-requirements)
-- [Software Requirements](#software-requirements)
-- [Demonstration](#demonstration)
-- [Code Overview](#code-overview)
-- [Acknowledgments](#acknowledgments)
-
----
+This embedded system project demonstrates:
+- User interface navigation via joystick
+- Multimedia capabilities such as photo viewing and MP3 playback
+- Games including Snake and Memory
 
 ## Features
 
-- **Interactive Multimedia**: Photo viewer and audio player with joystick navigation.
-- **Games**: Snake and Memory games with dynamic rendering.
-- **Real-Time Interfacing**: Hardware integration for display and input.
-- **Multifunctionality**: Modular design combining multimedia and gaming.
+1. **Main Menu Navigation**: A clean and intuitive interface for selecting between features.
+2. **Snake Game**: A simple but engaging game implemented using the LCD and joystick inputs.
+3. **Memory Game**: A challenging game testing the user's memory with graphical feedback.
+4. **MP3 Player**: USB-based audio player with volume control.
+5. **Photo Viewer**: Displays images stored in the system's memory.
+
+## Project Plan
+
+Below is the project plan detailing tasks, descriptions, and deliverables:
+
+![Project Plan](./Project_Plan.png)
+
+## Flow Diagram
+
+The flow diagram below illustrates the navigation through the main menu and its features:
+
+![Flow Diagram](./image.png)
+
+## How to Run
+
+1. Clone this repository to your local system.
+2. Use Keil uVision to open the project files.
+3. Connect the LPC1768 board and download the code to the hardware.
+4. Use the joystick to navigate through the system.
+
+## Code Files
+
+1. **`Blinky.c`**: Contains the main menu and initialization code.
+2. **`PhotoViewer.c`**: Handles photo viewing functionality.
+3. **`Audio.c`**: Implements the MP3 audio player with volume control.
+4. **`Snake.c`**: Implements the Snake game.
+5. **`Memory.c`**: Implements the Memory game.
+
+## Screenshots
+
+### Project Plan Table:
+![Project Plan Table](./image.png)
+
+### Flow Diagram:
+![Flow Diagram](./image.png)
 
 ---
 
-## Project Structure
-
-```plaintext
-.
-├── Blinky.c       # LED control and basic interface demonstration
-├── PhotoViewer.c  # Photo viewer with joystick-based navigation
-├── Audio.c        # Audio playback with hardware interfacing
-├── Snake.c        # Classic Snake game implementation
-├── Memory.c       # Memory card matching game
-├── README.md      # Project documentation
-└── Images/        # Media assets and project screenshots
+Feel free to reach out for any questions or suggestions!
