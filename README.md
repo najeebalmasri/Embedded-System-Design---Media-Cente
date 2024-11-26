@@ -7,8 +7,10 @@ This project showcases the design and implementation of an embedded system that 
 - [Features](#features)
 - [Project Plan](#project-plan)
 - [Flow Diagram](#flow-diagram)
+- [Hardware Demonstration](#hardware-demonstration)
 - [How to Run](#how-to-run)
 - [Code Files](#code-files)
+- [Screenshots](#screenshots)
 
 ## Overview
 
@@ -27,15 +29,22 @@ This embedded system project demonstrates:
 
 ## Project Plan
 
+The project was a 4 weeks in duration.
 Below is the project plan detailing tasks, descriptions, and deliverables:
 
-![Project Plan](./Project_Plan.png)
+![Project Plan Table](./Project_Plan.png)
 
 ## Flow Diagram
 
 The flow diagram below illustrates the navigation through the main menu and its features:
 
-![Flow Diagram](./image.png)
+![Flow Diagram](./Flow_Chart.png)
+
+## Hardware Demonstration
+
+Below is an image of the project implemented on the lab board:
+
+![Hardware Demonstration](./Demo.jpg)
 
 ## How to Run
 
@@ -59,6 +68,9 @@ The flow diagram below illustrates the navigation through the main menu and its 
 
 ### Flow Diagram:
 ![Flow Diagram](./image.png)
+
+### Hardware Demo:
+![Hardware Demo](./Demo.jpg)
 
 ---
 
